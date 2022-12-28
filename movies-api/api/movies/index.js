@@ -16,24 +16,24 @@ router.get('/', asyncHandler(async (req, res) => {
     res.status(200).json(movies);
 }));
 // Get movie details
-// router.get('/:id', asyncHandler(async (req, res) => {
-//     const id = parseInt(req.params.id);
-//     const movie = await movieModel.findByMovieDBId(id);
-//     if (movieDetails.id == id) {
-//         res.status(200).json(movieDetails);
-//     } else {
-//         res.status(404).json({
-//             message: 'The resource you requested could not be found.',
-//             status_code: 404
-//         });
-//     }
+router.get('/:id', asyncHandler(async (req, res) => {
+    const id = parseInt(req.params.id);
+    const movie = await movieModel.findByMovieDBId(id);
+    if (movieDetails.id == id) {
+        res.status(200).json(movieDetails);
+    } else {
+        res.status(404).json({
+            message: 'The resource you requested could not be found.',
+            status_code: 404
+        });
+    }
 
-//     if (movie) {
-//         res.status(200).json(movie);
-//     } else {
-//         res.status(404).json({message: 'The resource you requested could not be found.', status_code: 404});
-//     }
-// }));
+    if (movie) {
+        res.status(200).json(movie);
+    } else {
+        res.status(404).json({message: 'The resource you requested could not be found.', status_code: 404});
+    }
+}));
 
 // Get movie reviews
 router.get('/:id/reviews', (req, res) => {

@@ -4,6 +4,7 @@ import asyncHandler from 'express-async-handler';
 import jwt from 'jsonwebtoken';
 import movieModel from '../movies/movieModel';
 
+
 const router = express.Router(); // eslint-disable-line
 
 // Get all users
