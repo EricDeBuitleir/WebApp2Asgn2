@@ -39,7 +39,7 @@ Describe any configuration that needs to take place before running the API. For 
 ```bat
 REACT_APP_TMDB_KEY=ca646c6ab32f1e36d71c42181780732c
 FAST_REFRESH=false 
-MONGO_DB=mongodb+srv://<Username:<Password>@<ClusterName>/test
+MONGO_DB=mongodb+srv://<Username>:<Password>@<ClusterName>/test
 SEED_DB=True
 
 # API env
