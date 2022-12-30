@@ -53,11 +53,12 @@ Give an overview of your web API design, perhaps similar to the following:
 
 |  |  GET | POST | PUT | DELETE
 | -- | -- | -- | -- | -- 
-| /api/movies |Gets a list of movies | N/A | N/A | N/A |(Showing unauthorized due to login not working)
-| /api/movies/{movieid} | Get a Movie | N/A | N/A | N/A | (Showing unauthorized due to login not working)
+| /api/movies |Gets a list of movies | N/A | N/A | N/A 
+| /api/movies/{movieid} | Get a Movie | N/A | N/A | N/A 
 | /api/actors | Showing 404 not found | N/A | N/A | N/A  
 | /api/tvs | Showing 404 not found | N/A | N/A | N/A
 
+(Showing unauthorized due to login not working)
 If you have your API design on an online platform or graphic, please link to it (e.g. [Swaggerhub](https://app.swaggerhub.com/)).
 
 
