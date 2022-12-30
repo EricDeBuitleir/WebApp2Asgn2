@@ -53,8 +53,8 @@ Give an overview of your web API design, perhaps similar to the following:
 
 |  |  GET | POST | PUT | DELETE
 | -- | -- | -- | -- | -- 
-| /api/movies |Gets a list of movies | N/A | N/A | (Showing unauthorized due to login not working)
-| /api/movies/{movieid} | Get a Movie | N/A | N/A | N/A (Showing unauthorized due to login not working)
+| /api/movies |Gets a list of movies | N/A | N/A | N/A |(Showing unauthorized due to login not working)
+| /api/movies/{movieid} | Get a Movie | N/A | N/A | N/A | (Showing unauthorized due to login not working)
 | /api/actors | Showing 404 not found | N/A | N/A | N/A  
 | /api/tvs | Showing 404 not found | N/A | N/A | N/A
 
