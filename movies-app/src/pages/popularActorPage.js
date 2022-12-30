@@ -1,6 +1,6 @@
 import React from "react";
 import PageTemplate from "../components/actorComponents/templateActorListPage";
-import { getPopularActors} from "../api/tmdb-api";
+import { getPopularActors} from "../api/movie-api";
 import { useQuery } from 'react-query';
 import Spinner from '../components/spinner';
 import AddToFavouritesIcon from '../components/cardIcons/addToFavouriteActors'

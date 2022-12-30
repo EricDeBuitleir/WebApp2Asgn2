@@ -101,20 +101,20 @@ export const getMovie = (args) => {
   // TV Show api, done by coppying and pasting from the movies section above and changing the api link found on the TMDB doc website
 
 
-export const getTVs = () => {
-  return fetch(
-    `https://api.themoviedb.org/3/discover/tv?api_key=${process.env.REACT_APP_TMDB_KEY}`
+// export const getTVs = () => {
+//   return fetch(
+//     `https://api.themoviedb.org/3/discover/tv?api_key=${process.env.REACT_APP_TMDB_KEY}`
     
-  ).then((response) => {
-    if (!response.ok) {
-      throw new Error(response.json().message);
-    }
-    return response.json();
-  })
-  .catch((error) => {
-     throw error
-  });
-};
+//   ).then((response) => {
+//     if (!response.ok) {
+//       throw new Error(response.json().message);
+//     }
+//     return response.json();
+//   })
+//   .catch((error) => {
+//      throw error
+//   });
+// };
 export const getTV = (args) => {
   // console.log(args)
   const [, idPart] = args.queryKey;
@@ -190,19 +190,19 @@ export const getTV = (args) => {
   }
 
 
-  export const getPopularActors = (up) => {
-    return fetch(
-      `https://api.themoviedb.org/3/person/popular?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1`
-    ).then((response) => {
-      if (!response.ok) {
-        throw new Error(response.json().message);
-      }
-      return response.json();
-    })
-    .catch((error) => {
-       throw error
-    })
-  }
+  // export const getPopularActors = (up) => {
+  //   return fetch(
+  //     `https://api.themoviedb.org/3/person/popular?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1`
+  //   ).then((response) => {
+  //     if (!response.ok) {
+  //       throw new Error(response.json().message);
+  //     }
+  //     return response.json();
+  //   })
+  //   .catch((error) => {
+  //      throw error
+  //   })
+  // }
 
   export const getActor = (args) => {
     // console.log(args)
@@ -220,20 +220,20 @@ export const getTV = (args) => {
       throw error
    });
   };
-  export const getActors = () => {
-    return fetch(
-      `https://api.themoviedb.org/3/person/popular?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US`
+  // export const getActors = () => {
+  //   return fetch(
+  //     `https://api.themoviedb.org/3/person/popular?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US`
       
-    ).then((response) => {
-      if (!response.ok) {
-        throw new Error(response.json().message);
-      }
-      return response.json();
-    })
-    .catch((error) => {
-       throw error
-    });
-  };
+  //   ).then((response) => {
+  //     if (!response.ok) {
+  //       throw new Error(response.json().message);
+  //     }
+  //     return response.json();
+  //   })
+  //   .catch((error) => {
+  //      throw error
+  //   });
+  // };
 
   export const getActorImages = ({ queryKey }) => {
     const [, idPart] = queryKey;
