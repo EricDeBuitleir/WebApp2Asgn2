@@ -144,6 +144,10 @@ export const getMovies = () => {
  
  Code used in a class called setupProxy.js
  
+ + Commits
+ 
+ Less commits shown as I was having issues with GitHub and had to change Repos multiple times
+ 
 
 
 . . State the non-standard aspects of React/Express/Node (or other related technologies) that you researched and applied in this assignment . .  
