@@ -11,6 +11,8 @@ Name: Eric Butler
  + Feature 2 - Mongo Integration
 
  + Feature 3 - Minimal React integration(GET and POST data to API)
+ 
+ + Feature 4 - Basic Authentication and protected routes
 
  
 
