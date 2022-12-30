@@ -134,12 +134,15 @@ export const getMovies = () => {
 . . Briefly explain any non-standard features, functional or non-functional, developed for the app.  
 
 ## Independent learning.
-// REFERENCE
++ REFERENCE
 
-// Used code from josipat on Stackoverflow to fix an issue when trying to run the proxy in my package.json
-// Link to the code can be found below:
+ Used code from josipat on Stackoverflow to fix an issue when trying to run the proxy in my package.json
+ Link to the code can be found below:
 
-// https://stackoverflow.com/questions/70374005/invalid-options-object-dev-server-has-been-initialized-using-an-options-object
+ https://stackoverflow.com/questions/70374005/invalid-options-object-dev-server-has-been-initialized-using-an-options-object
+ 
+ Code used in a class called setupProxy.js
+ 
 
 
 . . State the non-standard aspects of React/Express/Node (or other related technologies) that you researched and applied in this assignment . .  
