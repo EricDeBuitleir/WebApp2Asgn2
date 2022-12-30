@@ -25,3 +25,22 @@ export const getMovies = () => {
     }
     ).then(res => res.json());
   };
+
+  // Copy and pasted from labs and added what I needed 
+  export const getUpcomingMovies = () => {
+    return fetch(
+       '/api/upcomingMovies',{headers: {
+         'Authorization': window.localStorage.getItem('token')
+      }
+    }
+    ).then(res => res.json());
+  };
+
+  export const getPopularMovies = () => {
+    return fetch(
+       '/api/movies',{headers: {
+         'Authorization': window.localStorage.getItem('token')
+      }
+    }
+    ).then(res => res.json());
+  };
