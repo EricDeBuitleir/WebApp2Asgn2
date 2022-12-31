@@ -22,7 +22,7 @@ import TVsContextProvider from './contexts/TVsContext';
 import ActorsContextProvider from './contexts/actorContext';
 import PopularActor from './pages/popularActorPage';
 import LoginPage from "./pages/loginPage";
-//import AuthContextProvider from "../contexts/authContext";
+import AuthContextProvider from "./contexts/authContext";
 //import PrivateRoute from "./privateRoute";
 import SignUpPage from "./pages/signUpPage";
 
@@ -45,6 +45,7 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
     <BrowserRouter>
     <SiteHeader />      {/* New Header  */}
+    <AuthContextProvider>
     <MoviesContextProvider>
     <TVsContextProvider>
     <ActorsContextProvider>
@@ -71,6 +72,7 @@ const App = () => {
     </ActorsContextProvider>
     </TVsContextProvider>
     </MoviesContextProvider>
+    </AuthContextProvider>
   </BrowserRouter>
   <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
