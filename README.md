@@ -52,7 +52,7 @@ SECRET=ilikecake
 
 ## API Design
 Give an overview of your web API design, perhaps similar to the following: 
-+ (Movies showing unauthorized due to signup and login pages not working)
+
 
 |  |  GET | POST | PUT | DELETE
 | -- | -- | -- | -- | -- 
