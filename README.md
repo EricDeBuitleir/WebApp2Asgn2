@@ -146,6 +146,9 @@ export const getMovies = () => {
  
  Code used in a class called setupProxy.js
  
+ Command to install proxy middleware was also run in terminal which can be shown:
+ npm install http-proxy-middleware --save
+ 
  + Commits
  
  Less commits shown as I was having issues with GitHub and had to change Repos multiple times
