@@ -13,6 +13,8 @@ Name: Eric Butler
  + Feature 3 - Minimal React integration(GET and POST data to API)
  
  + Feature 4 - Basic Authentication and protected routes
+ 
+ + Feature 5 - Login and Signup
 
  
 
@@ -37,7 +39,7 @@ Describe any configuration that needs to take place before running the API. For 
 **REMEMBER: DON'T PUT YOUR OWN USERNAMES/PASSWORDS/AUTH KEYS IN THE README OR ON GITHUB,** just placeholders as indicated below:
 
 ```bat
-REACT_APP_TMDB_KEY=ca646c6ab32f1e36d71c42181780732c
+REACT_APP_TMDB_KEY=<KEY>
 FAST_REFRESH=false 
 MONGO_DB=mongodb+srv://<Username>:<Password>@<ClusterName>/test
 SEED_DB=True
